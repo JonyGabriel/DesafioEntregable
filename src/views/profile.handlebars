@@ -1,0 +1,14 @@
+<ul>
+  <li><a href="/">Inicio</a></li>
+  <li><a href="/api/session/profile">Perfil</a></li>
+</ul>
+
+<h1>Tu perfil</h1>
+
+<h2>Nombre: {{userData.name}} </h2>
+<h2>Apellido: {{userData.last_name}} </h2>
+<h2>Email: {{userData.email}}</h2>
+
+<form action="/api/session/profile" method="post">
+    <button type="submit">Cerrar Sesion</button>
+</form>

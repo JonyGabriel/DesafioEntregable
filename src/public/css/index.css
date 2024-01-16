@@ -1,0 +1,126 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-attachment: fixed;
+  background: url('../img/wallpaperbetter.com_1920x1080.jpg');
+}
+
+#container {
+  width: 100%;
+  height: auto;
+  min-height: 910px;
+  align-content: center;
+  margin: 0px auto;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px #ccc;
+  color: violet;
+
+}
+
+.container-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 2rem;
+  justify-content: space-around;
+  border: 2px solid white;
+  box-shadow: 0px 0px 10px #ccc;
+  width: 85%;
+  height: 55rem;
+  margin-left: 10rem;
+  color: red;
+
+}
+
+.selectionsCards{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.spanButton{
+  padding: 2%;
+}
+
+.buttonSearch{
+  display: flex;
+  margin-left: 95%;
+  padding: 0.3%;
+}
+
+#forms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-left: 7rem;
+}
+
+.card-img-top {
+  height: 12rem;
+  border-bottom: 1px solid black;
+}
+
+#page-change {
+  display: flex;
+  flex-direction: row;
+  justify-content:center ;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.pages-links{
+  padding: 1rem;
+  margin: 1rem;
+  background-color: black;
+  box-shadow: 1px 1px 5px white;
+}
+
+.pages-links a{
+  text-decoration: none;
+  color: white;
+  font-family:'Times New Roman', Times, serif
+}
+
+.pages-links a:hover{
+  color: white;
+}
+
+.input-group{
+  width: 60% !important;
+  margin-top: 1rem;
+}
+
+#input-sort{
+  width: 10% !important;
+}
+
+#cart-title{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+label{
+  color: white;
+}
+li a {
+  text-decoration: dashed;
+}
+h2{
+  color: white;
+}
+
+#session-git{
+  height: 10rem;
+  width: 10rem;
+  background-color: wheat;
+}
